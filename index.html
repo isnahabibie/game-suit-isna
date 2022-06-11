@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="Styling/styling.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <li><img src="assets/back.png" alt="back" width="40px" height="40px"></li>
+            <li><img src="assets/logo.png" alt=" logo" width="72px" height="72px"></li>
+            <li><p> ROCK PAPER SCISSORS</p></li>
+        </div>
+
+    </nav>
+
+    <section class="main">
+        <div class="game">
+           <div class="palyer1">
+               <li>PLAYER</li>
+               <li><img src="assets/batu.png" alt="batu-player" width="128px" height="92px" id="batu-player" onclick="pilih('batu')"></li>
+               <li><img src="assets/kertas.png" alt="kertas-player" width="115px" height="150px" id="kertas-player" onclick="pilih('kertas')"></li>
+               <li><img src="assets/gunting.png" alt="gunting-player" width="134px" height="160px" id="gunting-player" onclick="pilih('gunting')"></li>
+            </div>
+            <div class="vs">
+                <li>VS</li>
+            </div>
+            <div class="COM">
+                <li>COM</li>
+                <li><img src="assets/batu.png" alt="batu-com" width="128px" height="92px" id="batu-com"></li>
+               <li><img src="assets/kertas.png" alt="kertas-com" width="115px" height="150px"  id="kertas-com"></li>
+               <li><img src="assets/gunting.png" alt="gunting-com" width="134px" height="160px" id="gunting-com"></li>
+            </div> 
+        </div>
+    </section>
+    <section class="refresh">
+        <div class="refresh1">
+            <li><img src="assets/refresh.png" alt="refesh" width="70px" height="70px" id="refresh"></li>
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
