@@ -60,6 +60,16 @@ nav {
     font-weight: 700;
 }
 
+.win{
+
+}
+.lose{
+
+}
+.draw{
+
+}
+
 .refresh {
     display: flex;
     justify-content: center;
