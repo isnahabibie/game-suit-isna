@@ -53,22 +53,35 @@ nav {
  
     align-items: center;
 }
-.vs {
+#vs {
     font-family: 'Open Sans', sans-serif;
     font-size: 144px;
     color: #BD0000;
     font-weight: 700;
 }
 
-.win{
+/* .win{
 
+} */
+/* #result{
+    src: url();
+    text-align: center;
+    line-height: 70px;
+    position: relative;
+    width: 260px;
+    height: 150px;
+    font-size: 38px;
+    background-color: green;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    transform: rotate(-28.87deg);
 }
-.lose{
 
 }
 .draw{
 
-}
+} */
 
 .refresh {
     display: flex;
